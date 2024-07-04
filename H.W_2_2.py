@@ -6,4 +6,6 @@ digit_three = (number//100) % 10
 digit_four = (number//10) % 10
 digit_five = number % 10
 
-print(digit_five, digit_four, digit_three, digit_two, digit_one)
+#робимо ще одну перемінну
+reciprocal_number = (digit_five * 10000) + (digit_four * 1000) + (digit_three * 100) + (digit_two * 10) + digit_one
+print(reciprocal_number)
